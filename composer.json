@@ -20,6 +20,7 @@
     "require": {
         "php" : "~7.1",
         "getpop/meta": "dev-master",
+        "getpop/posts": "dev-master",
         "getpop/migrate-postmeta": "^1.0@dev"
     },
     "require-dev": {
