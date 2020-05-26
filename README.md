@@ -25,7 +25,9 @@ composer require getpop/postmeta
 Initialize the component:
 
 ``` php
-\PoP\PostMeta\Component::initialize();
+\PoP\Root\ComponentLoader::initializeComponents([
+    \PoP\PostMeta\Component::class,
+]);
 ```
 
 ## Standards
