@@ -1,12 +1,12 @@
 {
-    "name": "getpop/postmeta",
+    "name": "getpop/custompostmeta",
     "type": "library",
     "description": "Adds support for post meta",
     "keywords": [
         "PoP",
-        "postmeta"
+        "custompostmeta"
     ],
-    "homepage": "https://github.com/PoPSchema/postmeta",
+    "homepage": "https://github.com/PoPSchema/custompostmeta",
     "license": "MIT",
     "authors": [
         {
@@ -21,7 +21,7 @@
         "php" : "~7.1",
         "getpop/meta": "dev-master",
         "getpop/posts": "dev-master",
-        "getpop/migrate-postmeta": "dev-master"
+        "getpop/migrate-custompostmeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\PostMeta\\": "src"
+            "PoP\\CustomPostMeta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\PostMeta\\": "tests"
+            "PoP\\CustomPostMeta\\": "tests"
         }
     },
     "scripts": {

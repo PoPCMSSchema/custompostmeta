@@ -17,7 +17,7 @@ Adds support for post meta
 Via Composer
 
 ``` bash
-composer require getpop/postmeta
+composer require getpop/custompostmeta
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Initialize the component:
 
 ``` php
 \PoP\Root\ComponentLoader::initializeComponents([
-    \PoP\PostMeta\Component::class,
+    \PoP\CustomPostMeta\Component::class,
 ]);
 ```
 
@@ -75,17 +75,17 @@ If you discover any security related issues, please email leo@getpop.org instead
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/getpop/postmeta.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/getpop/custompostmeta.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/getpop/postmeta/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/postmeta.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/postmeta.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/getpop/postmeta.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/getpop/custompostmeta/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/getpop/custompostmeta.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/getpop/custompostmeta.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/getpop/custompostmeta.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/getpop/postmeta
-[link-travis]: https://travis-ci.org/getpop/postmeta
-[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/postmeta/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/getpop/postmeta
-[link-downloads]: https://packagist.org/packages/getpop/postmeta
+[link-packagist]: https://packagist.org/packages/getpop/custompostmeta
+[link-travis]: https://travis-ci.org/getpop/custompostmeta
+[link-scrutinizer]: https://scrutinizer-ci.com/g/getpop/custompostmeta/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/getpop/custompostmeta
+[link-downloads]: https://packagist.org/packages/getpop/custompostmeta
 [link-author]: https://github.com/leoloso
 [link-contributors]: ../../contributors

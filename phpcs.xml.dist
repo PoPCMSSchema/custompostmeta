@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset name="postmeta">
-    <description>The coding standard of postmeta package</description>
+<ruleset name="custompostmeta">
+    <description>The coding standard of custompostmeta package</description>
     <arg value="p" />
 
     <config name="ignore_warnings_on_exit" value="1" />
