@@ -17,7 +17,7 @@ class Component extends AbstractComponent
     {
         return [
             \PoP\Meta\Component::class,
-            \PoP\Posts\Component::class,
+            \PoP\CustomPosts\Component::class,
         ];
     }
 
