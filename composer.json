@@ -1,5 +1,5 @@
 {
-    "name": "getpop/custompostmeta",
+    "name": "pop-schema/custompostmeta",
     "type": "library",
     "description": "Adds support for post meta",
     "keywords": [
@@ -19,9 +19,9 @@
     "prefer-stable": true,
     "require": {
         "php": "~7.2",
-        "getpop/meta": "dev-master",
-        "getpop/customposts": "dev-master",
-        "getpop/migrate-custompostmeta": "dev-master"
+        "pop-schema/meta": "dev-master",
+        "pop-schema/customposts": "dev-master",
+        "pop-schema/migrate-custompostmeta": "dev-master"
     },
     "require-dev": {
         "phpstan/phpstan": "^0.12",
@@ -30,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PoP\\CustomPostMeta\\": "src"
+            "PoPSchema\\CustomPostMeta\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PoP\\CustomPostMeta\\": "tests"
+            "PoPSchema\\CustomPostMeta\\": "tests"
         }
     },
     "scripts": {
